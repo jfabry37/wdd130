@@ -1,35 +1,51 @@
+:root {
+    --border:1px solid rgba(0, 0, 0, 0.2);
+    --margin: 1em;
+    --padding: 10px;
+    --color: black;
+
+}
+
+
 nav {
-    background-color: darkblue;
-    padding: 10px;
+    background-color: #b0e0e6;
+    padding: var(--padding);
+    margin:1rem;
+    border: var(--border);
+    
 }
 nav a {
-    color: white;
+    color: var(--color);
     display: block;
     padding: 20px;
 }
 h1{
-    color: darkblue;
+
+    margin: 1rem;
+    color: var(--color);
 }
 main img {
+    margin: var(--margin);
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: var(--border);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 p{
-    padding: 10px
+    margin: var(--margin);
+    padding: var(--padding);
 }
 main {
     max-width: 840px;
 }
 aside {
     width:20rem;
-    margin:1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin:var(--margin);
+    border: var(--border);
     padding: 1rem;
     background-color: #b0e0e6;
-    color: black;
+    color: var(--color);
     text-align: center;
 }
 aside img{
