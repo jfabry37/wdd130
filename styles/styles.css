@@ -4,19 +4,30 @@
     box-sizing: border-box;
  }
 
+ header,.grid, footer{
+    max-width: 840px;
+    margin: 0 auto;
+ }
 
 nav {
-    background-color: #3d8d97;
-    padding: 10px;
+    background-color: #327781;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;   
 }
 nav a {
     color: white;
     display: block;
-    padding: 10px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 h1{
     color: black;
-    padding: .5rem
+    padding: .5rem;
+    border-bottom: 1px solid #000;
 }
 main img {
     float: right;
@@ -31,13 +42,20 @@ p{
     margin: 1em;
     padding: 10px;
 }
+.grid{
+    display: grid;
+    align-items: center;
+}
 main {
-    max-width: 840px;
+    grid-column: 2/3 ;
+    margin: 1rem;
 }
 aside {
     width:20rem;
-    text-align: center;
+    /*text-align: center;*/
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 aside img{
     width: 200px;
@@ -46,7 +64,7 @@ aside img{
 aside h2{
     position: absolute; 
     top: 20px;
-    left: 70px;
+    left: 29px;
 }
 p {
     padding: 0;

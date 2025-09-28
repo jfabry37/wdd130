@@ -14,6 +14,7 @@ div {
     margin: 1rem;
     border: 1px dashed;
     padding: 1rem;
+    
 }
 
 .one {
@@ -22,19 +23,30 @@ div {
 }
 
 .flex {
+    display: flex;
+    justify-content:center;
+    align-items: center;
     background-color: #aba;
     /* write declarations here */
+    /* flex used to center the paragraph content horizontally and vertically*/
 
 }
 
 .grid {
+    display: grid;
+    place-items: center;
     background-color: #abb;
     /* enter declarations here */
+    /* Used grid  = place-items: center  =to center items*/
 
 }
 
 .container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     /* write declarations here */
+    /* Used flex to place and wrap content*/
 
 }
 
@@ -44,12 +56,17 @@ div {
 }
 
 .container3 {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; this is what I wrote and it worked
+    but the following is what the teacher recomened. */
+    grid-template-columns: 1fr 1fr 1fr;
     /* write declarations here */
 
 }
 
 .columns-3 {
-    /* write declaration here */
+    grid-column: span 3;
+    /* also recomened = grid-column: 1/4; */
 
 }
 
