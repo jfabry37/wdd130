@@ -78,6 +78,22 @@ article {
     margin: 5px;
     border: 1px solid rgb(0, 0, 0/ 10%);    
 }
+.history{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 35px 1fr;
+    row-gap:  0.4em;
+}
+.history h2{
+    grid-column: span 3;
+}
+.history img{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 250px;
+    height: auto;
+    order: 2;
+}
 
 .adventure img{
     width: 75px;
@@ -95,10 +111,14 @@ article {
 }
 .footer{
     display: grid;
-    grid-template-columns: 35rem 1fr;
+    grid-template-columns: 40rem 1fr;
     justify-content: center;
 }
-
+.footer p{
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
 .socialmedia{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
