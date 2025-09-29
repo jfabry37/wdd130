@@ -2,7 +2,7 @@
 :root{                           /* Color Scheme */
     --primary-color: #fcf6f6; /* forest green*/
     --secondary-color: #ebbd98; /*warm sand*/
-    --accent1-color: #426979; /* dark slate blue*/
+    --accent1-color: #095979; /* dark slate blue*/
     --accent2-color: black; /* light golden yellow*/
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
