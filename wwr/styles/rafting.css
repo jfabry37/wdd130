@@ -3,7 +3,7 @@
     --primary-color: #fcf6f6; /* forest green*/
     --secondary-color: #ebbd98; /*warm sand*/
     --accent1-color: #426979; /* dark slate blue*/
-    --accent2-color: #e9c46a; /* light golden yellow*/
+    --accent2-color: black; /* light golden yellow*/
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -14,7 +14,7 @@
 }
 header {
     background-color:var(--secondary-color);
-    color: var(--accent2-color);
+    color: black;
     display: grid;
     grid-template-columns: 250px 1fr;
     align-items: center;
@@ -24,6 +24,8 @@ header {
     justify-content: center;
 }
 .navigation li{
+    list-style-type: none;
+    background-color: var(--primary-color);
     border: .5px solid black;
     padding: 10px;
 }
