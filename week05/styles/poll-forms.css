@@ -1,0 +1,81 @@
+
+.root{
+    --primary-color: aliceblue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    color: black;
+    background-color: var(--primary-color);
+}
+header{
+    margin: auto;
+    width: auto;
+}
+
+form{
+    width: 650px;
+    margin: 25px;
+    border: 50px;
+    padding: 25px;
+    border: 1px solid black ;
+    border-radius: 1.5rem;
+    background-color:rgb(242, 242, 247) ;
+    display: grid;
+}
+ fieldset{
+    display: grid;
+    grid-gap: 5px;
+    place-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: .5px solid black;
+ }
+
+ legend{
+    font-size: large;
+    font-weight: 600;
+    color: darkblue;
+ }
+ label{
+    font-size: larger;
+ }
+ button{
+    font-weight: 600;
+    background-color: blue;
+    color: white;
+ }
+/* button:hover{
+    background-color:blue;
+} */
+ textarea{
+    border: 1px solid black;
+    width: 25rem;
+ }
+ input[type="checkbox"]{
+width: 20px;
+height: 22px;
+vertical-align: bottom;
+ }
+footer{
+    display: flex;
+    justify-content: center;
+}
+.form-item{
+    display: grid;
+    align-items: center;
+}
+.column1{
+    grid-template-columns: 3fr 1fr;
+    margin: 5px;
+    column-gap: 10px;
+}
+.column2{
+    grid-template-columns: 1fr 2fr;   
+}

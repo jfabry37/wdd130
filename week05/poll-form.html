@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll-Form</title>
+    <meta name="author" content="Julean Fabry">
+    <link rel="stylesheet" href="styles/poll-forms.css">
+</head>
+
+<body>
+    <header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div class="form-item column2">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="form-item column2">
+                        <label for="useremail">Email:</label>
+                        <input type="text" name="useremail" id="useremail">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <div class="form-item column1">
+                        <label for="browser"> What is your favorite internet browser?</label>
+                        <select id="browser" name="browser">
+                            <option value="Chrome">Chrome</option>
+                            <option value="Firefox">Firefox</option>
+                            <option value="Safari">Safari</option>
+                            <option value="Edge">Edge</option>
+                            <option value="Brave">Brave</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-item column1">
+                        <label for="pet">Do you have a household pet?</label>
+                        <input type="checkbox" id="pet" name="pet">
+                    </div>
+                    <label for="feedback">List the places you have lived:</label>
+                    <textarea id="feedback" name="feedback" rows="4"
+                        placeholder="Fort-Collins, Colorado, United State of America"></textarea>
+
+                </fieldset>
+                <button class="submit" type="button">Submit Poll</button>
+            </form>
+        </main>
+    </header>
+    <footer>
+        <p>©️ 2025 | Poll Activity💎 Julean Fabry💎</p>
+    </footer>
+</body>
+
+</html>
