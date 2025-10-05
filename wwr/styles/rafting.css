@@ -64,7 +64,7 @@ h1{
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: var(--primary-color); /*White text -make sure there is enough contrast with the background-color */
+    color: var(--primary-color); 
 }
 article { 
     position: absolute ;
@@ -100,7 +100,7 @@ article {
     order: 2;
 }
 
-.adventure img{
+.adventure img {
     width: 85px;
     height: auto;
 }
@@ -111,9 +111,11 @@ article {
     grid-template-rows: 1fr 1fr;
     row-gap: 5px;
 }
+
 .adventure h2{
     grid-column: span 5;
 }
+
 .footer{
     display: grid;
     grid-template-columns: 40rem 1fr;
@@ -130,4 +132,98 @@ article {
 }
 .socialmedia img{
     width: 25px;
+}
+.map{
+    width: 5px;
+}
+.container1{
+display: flex;
+justify-content: center;
+font-size: larger;
+font-weight: bolder;
+}
+.container2 {
+    display: flex;
+    flex-flow: column;
+    place-items: center;
+    justify-content: center;
+}
+
+.information{
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    grid-template-rows: 500px;
+}
+ .map iframe { 
+    width: 380px;
+    height: 500px;
+}
+
+form{
+    background-color: rgb(217, 243, 247);
+    color: black;
+    justify-content: center;
+    padding: .25rem;
+    border: 2px solid rgb(75, 74, 74);
+}
+.form-items {
+    display: flex;
+    padding: .25rem;
+    width: 350px;   
+    justify-content: center;
+}
+.purpose{
+    display:flex;
+    padding: .75rem;
+    justify-content: center;
+}
+.purpose .p{
+    grid-column: span 3 ;
+    
+}
+.radio{
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center; 
+    align-content: center; 
+}
+
+.message{
+    display: flex;
+    width: 25rem;
+    padding: 15px;
+    justify-content: center;
+}
+
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 22px;
+    padding: 25px;
+    vertical-align: bottom;
+}
+.newsletter{
+    padding: 15px;
+}
+button{
+    background-color: navy;
+    color: #fcf6f6;
+    margin: 0 auto;
+    padding: .5rem;
+    display: block;
+    border-radius: .5rem;
+    border: 1px solid rgb(0 0 0/ 10% );
+}
+.employees{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.employees img{
+    width: 85px;
+    height: auto;
+}
+.employees h2{
+    grid-column: span 3;
 }
