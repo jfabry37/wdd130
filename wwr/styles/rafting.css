@@ -148,6 +148,9 @@ font-weight: bolder;
     place-items: center;
     justify-content: center;
 }
+.container2 p{
+    margin:0;
+}
 
 .information{
     display: grid;
