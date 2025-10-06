@@ -115,6 +115,30 @@ article {
 .adventure h2{
     grid-column: span 5;
 }
+.adventure2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2rem 1fr 1fr;
+    background-color: rgb(235, 236, 243);
+    border: 2px solid rgb(75, 74, 74);
+}
+.adventure2 p{
+    grid-column: span 3;
+}
+
+.adventure2 img{
+    width: 10rem;
+    height: auto;
+}
+
+ .adventure2 h2{
+    grid-column: span 3;
+}
+
+.adventure2 figure{
+    display: grid;
+    justify-content: center;
+}
 
 .footer{
     display: grid;
@@ -141,15 +165,19 @@ display: flex;
 justify-content: center;
 font-size: larger;
 font-weight: bolder;
+background-color: rgb(235, 236, 243);
+border: 2px solid rgb(0 0 0/ 10% );
 }
 .container2 {
     display: flex;
     flex-flow: column;
     place-items: center;
     justify-content: center;
+    background-color: rgb(235, 236, 243);
+    border: 2px solid rgb(0 0 0/ 10% );
 }
 .container2 p{
-    margin:0;
+    margin: 0;
 }
 
 .information{
@@ -222,11 +250,71 @@ button{
 .employees{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(235, 236, 243);
+    border: 2px solid black;
+}
+
+.employees figure{
+    justify-self: center;
 }
 .employees img{
-    width: 85px;
+
+    width: 15rem;
     height: auto;
 }
 .employees h2{
     grid-column: span 3;
+    margin: 1rem;
 }
+
+.advertisment{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(235, 236, 243);
+    border: 2px solid rgb(75, 74, 74);
+}
+.advertisment img{
+    width: 100%;
+}
+
+.newsletter p{
+    font-family: var(--heading-font);
+    color:var(--primary-color);
+    background-color: rgb(25, 43, 63);
+    text-align: center;
+    font-weight: bolder;
+}
+
+.newsletter img{
+    padding: 285px 0 0 0;
+}
+.trips{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    background-color: rgb(241, 245, 247);
+    border: 2px solid rgb(75, 74, 74);
+}
+
+.half-day, .full-day, .two-day, .equipment, .discounts{
+    background-color: rgb(235, 236, 243);
+    border: 2px solid black;
+}
+
+.trips img{
+    width: 100px;
+    height: auto;
+ }
+
+ .equipment img{
+    width: 250px;
+ }
+ .discounts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2rem 1fr;
+ }
+ .discounts h2{
+    grid-column: span 3 ;
+ }
