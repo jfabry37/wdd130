@@ -313,8 +313,14 @@ button{
  .discounts{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2rem 1fr;
+    grid-template-rows: 2rem 1fr 2rem;
  }
  .discounts h2{
     grid-column: span 3 ;
  }
+.contact-button{
+    grid-column: span 3;
+    justify-self: end;
+    align-self: center;
+    font-size: larger;
+}
