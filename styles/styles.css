@@ -21,6 +21,31 @@ img {
     box-shadow: 0 0 30px gray;
 }
 
+main {
+    width: auto;
+}
+
+aside {
+    width: 35rem;
+    margin: auto;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: rgb(43, 43, 153);
+    color: white;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
 p {
-    padding: 10px;
+    padding: 0;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid black;
+    text-align: center;
 }
