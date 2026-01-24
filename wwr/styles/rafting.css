@@ -26,6 +26,7 @@ header, main, footer {
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    text-align: center;
 }
 h2{
     background-color: var(--accent2-color);
