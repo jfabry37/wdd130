@@ -9,6 +9,12 @@
     --background-color: rgb(173, 173, 191);
 }
 
+header,
+footer {
+    max-width: 840px;
+    margin: 0;
+}
+
 body {
     font: 16px;
     font-family: 'Times New Roman', Times, serif;
@@ -18,17 +24,22 @@ nav {
     background-color: var(--background-color);
     padding: 10px;
     border: var(--border);
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
 }
 
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
 }
 
 h1 {
     color: darkblue;
     padding: 1rem;
+    border-bottom: 5px dotted black;
 }
 
 main img {
@@ -44,12 +55,15 @@ main img {
 
 main {
     max-width: 640px;
+    grid-column: 2/3;
 }
 
 aside {
     width: 35rem;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
@@ -86,4 +100,9 @@ footer {
 
 .indent {
     padding-left: 2rem;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
