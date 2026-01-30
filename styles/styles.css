@@ -6,10 +6,11 @@
 
 :root {
     --border: 1px solid rgba(3, 3, 3);
-    --background-color: rgb(173, 173, 191);
+    --background-color: #f1eaea;
 }
 
 header,
+.grid,
 footer {
     max-width: 840px;
     margin: 0;
@@ -21,7 +22,7 @@ body {
 }
 
 nav {
-    background-color: var(--background-color);
+    background-color: #2a2a98;
     padding: 10px;
     border: var(--border);
     display: flex;
