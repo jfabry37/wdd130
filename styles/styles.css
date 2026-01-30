@@ -59,7 +59,7 @@ main {
 }
 
 aside {
-    width: 35rem;
+    width: auto;
     text-align: center;
     position: relative;
     grid-column: 1/2;
@@ -75,7 +75,7 @@ aside img {
 aside h2 {
     position: absolute;
     top: 15px;
-    left: 80px;
+    left: 25px;
 }
 
 p {
