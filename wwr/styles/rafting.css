@@ -1,9 +1,9 @@
 :root {
     --primary-color: #055a05;
     --secondary-color: #f4a261;
-    --accent1-color:#264653;
+    --accent1-color: #264653;
     --accent2-color: #e9c46a;
-    --heading-font: "Times New Roman","serif";
+    --heading-font: "Times New Roman", "serif";
     --body-font: Arial, Helvetica, sans-serif;
 }
 
@@ -18,24 +18,45 @@ body {
     color: var(--accent1-color);
 }
 
-header, main, footer {
+header,
+main,
+footer {
     width: 840px;
     margin: 0 auto;
 }
 
-h1, h2 {
+footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+h1,
+h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
 }
-h2{
+
+h2 {
     background-color: var(--accent2-color);
 
 }
 
-nav, p, section, article {
+nav,
+p,
+section,
+article {
     margin: 16px;
     padding: 8px;
+
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .socialmedia a {
@@ -45,7 +66,6 @@ nav, p, section, article {
 .hero {
     position: relative;
 }
-
 
 .hero img {
     display: block;
@@ -59,14 +79,16 @@ nav, p, section, article {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7 ;
+    opacity: 0.7;
     background-color: var(--accent1-color);
     color: #fff;
 }
+
 article {
     position: absolute;
 }
-.hero article{
+
+.hero article {
     margin: 1px;
     position: absolute;
     bottom: 10px;
@@ -74,12 +96,49 @@ article {
     padding: 20px;
     text-align: center;
     background-color: var(--secondary-color);
-    opacity: 0.7;
+    opacity: 0.80;
     color: black;
     font-family: var(--body-font);
+    font-size: larger
 }
+
 .hero article img {
     float: right;
     width: 125px;
-    
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 10rem 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 15px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.history h2 {
+    grid-column: span 3;
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.adventure figure {
+    place-items: center;
+}
+
+.adventure h2 {
+    grid-column: span 5;
+    margin: 10px 0;
 }
