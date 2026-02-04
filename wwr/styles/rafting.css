@@ -186,19 +186,10 @@ article {
     border-radius: .2rem;
 }
 
-.contact-info5 input {
-    width: 2rem;
-}
-
-.contact-info5 label {
-    font-size: small;
-
-}
-
 input {
     padding: 2px;
     border-radius: .2rem;
-
+    width: 2rem;
 }
 
 th {
