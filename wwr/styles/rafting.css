@@ -161,24 +161,24 @@ article {
     padding: 0;
 }
 
-.contact-info1,
-.contact-info2,
-.contact-info3,
-.contact-info4,
-.contact-info5,
-.contact-info6 {
+.info1,
+.info2,
+.info3,
+.info4,
+.info5,
+.info6 {
     width: 100%;
     margin: 5px;
     padding: 2px;
 }
 
-.contact-info1 input,
-.contact-info2 input {
+.info1 input,
+.info2 input {
 
     width: 80%;
 }
 
-.contact-info4 textarea {
+.info4 textarea {
     width: 100%;
     margin: 10px;
     padding: 10px;
