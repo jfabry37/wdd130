@@ -235,12 +235,14 @@ button {
     padding: 5px;
     place-items: center;
     background-color: #e9c46a;
+    border: 2px solid var(--accent1-color);
 }
 
 .advertisement a {
     background-color: rgb(74, 74, 236);
     color: white;
     padding: .5rem;
+    border: 2px solid var(--accent1-color);
 }
 
 .index-grid {
@@ -274,4 +276,50 @@ button {
 
 .newsletter-button {
     width: 8rem;
+}
+
+.details {
+    display: grid;
+    border: 3px solid var(--accent1-color);
+    place-items: center;
+    background-color: #e9c46a;
+}
+
+.details h2 {
+    width: 100%;
+}
+
+.details a {
+    background: rgb(45, 98, 116);
+    color: white;
+    padding: 5px 15px;
+    margin-top: 10px;
+}
+
+.details2 {
+    border: 2px, solid #264653;
+    background-color: #e9c46a;
+}
+
+.details2 td {
+    place-items: center;
+    font-weight: bold;
+    color: black;
+    padding: 5px 20px;
+}
+
+.details2 figure {
+    border: 2px solid var(--accent1-color);
+    place-items: center;
+    background-color: var(--secondary-color);
+    color: #264653;
+    font-weight: bold;
+}
+
+.details3 {
+    border: 2px solid #264653;
+    place-items: center;
+    background-color: #f4a261;
+    color: black;
+    font-weight: bolder;
 }
